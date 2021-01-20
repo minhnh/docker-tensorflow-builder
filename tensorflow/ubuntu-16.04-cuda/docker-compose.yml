@@ -1,0 +1,8 @@
+version: '3'
+services:
+  tf-1.13-gpu:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../../wheels:/wheels
